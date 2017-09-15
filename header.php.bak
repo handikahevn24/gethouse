@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get House Karangampel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<style>
+	/*
+	html {
+	background-color: black;
+}
+*/
+	.navbar-inverse .navbar-brand {
+    color: #ffffff;
+	}
+	.navbar-inverse {
+    background-color: #5bc0de;
+    border-color: #ffffff;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+	}
+	#gambar {
+
+	}
+	.col-md-4:hover .image {
+		opacity: 0.3;
+	}
+	.middle {
+  	transition: .5s ease;
+  	opacity: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%)
+	}
+	.col-md-4:hover .middle {
+  	opacity: 1;
+	}
+	.text {
+  	background-color: #5bc0de;
+  	color: white;
+  	font-size: 16px;
+  	padding: 16px 32px;
+	}
+	.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #d8ebff;
+	}
+/*	body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+	body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+*/
+	</style>
+	<script>document.body.className += ' fade-out';</script>
+
+	<script>$(function() {
+    $('body').removeClass('fade-out');
+    });
+    </script>
+</head>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="/ririn">Get House</a>
+	    </div>
+	<!--    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="#">Page 1</a></li>
+	      <li><a href="#">Page 2</a></li>
+	    </ul>
+	-->
+	    <ul class="nav navbar-nav navbar-right">
+	        <h4 style="padding-top: 10px;color: #ffffff;"><marquee behavior="" direction="">Sistem Informasi Get House</marquee></h4>
+	    </ul>
+	  </div>
+	</nav>
